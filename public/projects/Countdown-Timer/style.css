@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(./images/surface-2T-B5o8ckXc-unsplash.jpg) no-repeat 0 50%;
+  background-size: cover;
+  background-position: center center;
+  /* background-color: transparent; */
+
+  display: flex;
+  /* flex: 1; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Architects Daughter", cursive;
+
+  margin: 0;
+}
+
+/* body::before {
+  background-image: url(./images/surface-2T-B5o8ckXc-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+} */
+
+.header {
+  font-family: "Catamaran", sans-serif;
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: -5rem;
+}
+
+.countdown-timer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.big-text {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-container {
+  text-align: center;
+}
+
+.countdown-container span {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.app-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-title {
+  margin: 0 0 15px 0;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.app-subtitle {
+  margin: 0;
+  font-size: 18px;
+  opacity: 0.95;
+  font-weight: 400;
+}
+
+.app-main {
+  flex: 1;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.app-footer {
+  background: #2d3748;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: auto;
+}
+
+.app-footer p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    padding: 40px 20px;
+  }
+
+  .app-title {
+    font-size: 36px;
+  }
+
+  .app-subtitle {
+    font-size: 16px;
+  }
+
+  .app-main {
+    padding: 40px 15px;
+  }
+
+  .app-footer {
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-header {
+    padding: 30px 15px;
+  }
+
+  .app-title {
+    font-size: 28px;
+  }
+
+  .app-subtitle {
+    font-size: 14px;
+  }
+
+  .app-main {
+    padding: 30px 15px;
+  }
+}
